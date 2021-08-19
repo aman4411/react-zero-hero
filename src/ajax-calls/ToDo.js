@@ -28,7 +28,9 @@ class ToDo extends Component {
         return (
             <div className="container">
                 <h2>List of ToDos</h2>
-                {todoList}
+                <ol>
+                    {todoList.map(todo => <li>{todo}</li>)}
+                </ol>
             </div>
         )
     }

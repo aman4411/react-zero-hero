@@ -171,3 +171,27 @@ or in the constructor of any child component.
 -> componentDidCatch()
 
 
+React Routing
+--------------------------------
+navigating to other components or pages.
+
+we use react-router-dom package.
+
+BrowserRouter - used for doing client-side routing with url segments.
+
+Switch - Returns only the first matching route rather than all matching routes.
+
+Route - conditionally shown component  based on matching path.
+
+Link - replacement for anchor tags
+
+
+React Hooks
+--------------------------
+Hooks are new feature added in react version 16.8 which allows us to use react features 
+without having to write a class.
+
+e.g state of component
+
+
+
