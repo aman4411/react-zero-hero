@@ -23,6 +23,7 @@
 // import StylesheetOne from './Styling/StylesheetOne';
 // import styles from './Styling/appStyle.module.css'
 // import Form from './form-handling/Form';
+import Employees from './ajax-calls/Employees';
 import ToDo from './ajax-calls/ToDo';
 import Users from './ajax-calls/Users';
 import FormOne from './form-handling/FormOne';
@@ -39,9 +40,10 @@ import Routing from './routing/Routing';
 function App() {
   return (
     <div className="container">
+      
+      {/* <Routing/> */}
 
-      <Routing/>
-
+      <Employees/>
       {/* <Users/> */}
       {/* <ToDo/> */}
 
